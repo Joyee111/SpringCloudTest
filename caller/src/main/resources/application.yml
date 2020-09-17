@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: caller-test
+
+server:
+  port: 10213
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10200/eureka/
+  instance:
+    prefer-ip-address: true
+

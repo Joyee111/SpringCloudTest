@@ -1,0 +1,17 @@
+
+spring:
+  application:
+    name: EurekaClient-test
+
+#服务端口
+server:
+  port: 10201
+
+# 注册中心地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10200/eureka/
+  instance:
+    prefer-ip-address: true
+
